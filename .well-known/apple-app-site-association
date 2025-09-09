@@ -3,6 +3,7 @@
     "apps": [],
     "details": [
       {
+        "appIDs": ["Q3UX3TW7VF.com.xcaret.hotelxcaretmexico"],
         "appID": "Q3UX3TW7VF.com.xcaret.hotelxcaretmexico",
         "paths": [ "/producto/*" ]
       }
