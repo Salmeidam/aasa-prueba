@@ -6,7 +6,7 @@
         "appIDs": [
           "4MAZ6PN72R.com.xcaret.hotelxcaretmexico"
         ],
-	"appID": "2TDUX39LX8.com.reddit.Reddit",
+	"appID": "4MAZ6PN72R.com.xcaret.hotelxcaretmexico",
         "components": [
           {
             "/": "/producto/*",
