@@ -3,16 +3,29 @@
     "apps": [],
     "details": [
       {
-	"appIDs": ["4MAZ6PN72R.com.xcaret.hotelxcaretmexico"], 
- 	"components": [ { 
-  	  "/": "/producto/*", 
-   	 "comment": "Matches any URL beginning with /producto/" 
-   	 },
-   	 { 
-   	 "/": "/photos/*", 
-   	 "comment": "Matches any URL beginning with /photos/" 
-    	}]
+        "appIDs": [
+          "4MAZ6PN72R.com.xcaret.hotelxcaretmexico"
+        ],
+        "components": [
+          {
+            "/": "/producto/*",
+            "comment": "Matches any URL beginning with /producto/"
+          },
+          {
+            "/": "/photos/*",
+            "comment": "Matches any URL beginning with /photos/"
+          }
+        ],
+        "paths": [
+          "/producto/*",
+          "/photos/*"
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "4MAZ6PN72R.com.xcaret.hotelxcaretmexico"
     ]
   }
 }
