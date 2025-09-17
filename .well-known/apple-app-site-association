@@ -3,8 +3,15 @@
     "apps": [],
     "details": [
       {
-        "appID": "4MAZ6PN72R.com.xcaret.hotelxcaretmexico",
-        "paths": ["/producto/*", "/photos/*"]
+	"appIDs": ["4MAZ6PN72R.com.xcaret.hotelxcaretmexico"], 
+ 	"components": [ { 
+  	  "/": "/producto/*", 
+   	 "comment": "Matches any URL beginning with /producto/" 
+   	 },
+   	 { 
+   	 "/": "/photos/*", 
+   	 "comment": "Matches any URL beginning with /photos/" 
+    	}]
       }
     ]
   }
