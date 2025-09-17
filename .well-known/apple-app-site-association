@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "4MAZ6PN72R.com.xcaret.hotelxcaretmexico",
-        "paths": ["/producto/*"]
+        "paths": ["/producto/*", "/photos/12345"]
       }
     ]
   }
