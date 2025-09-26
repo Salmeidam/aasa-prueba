@@ -31,13 +31,19 @@
 
     function attemptDeepLink(deepLink, fallback) {
         const start = Date.now();
-        window.location = deepLink;
+        const iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = deepLink;
+        document.body.appendChild(iframe);
+
         setTimeout(() => {
-            if (Date.now() - start < 3000) { // Timeout de 3s para detectar fallo
+            document.body.removeChild(iframe);
+            if (Date.now() - start < 3000) {
                 fallback();
             }
-        }, 2000);
-    }
+    }, 2000);
+}
+
 
     function isIOSVersionAtLeast(version) {
         const match = ua.match(/os (\d+)_/);
