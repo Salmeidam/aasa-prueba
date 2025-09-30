@@ -21,6 +21,21 @@
           "/producto/*",
           "/photos/*"
         ]
+      },
+      {
+        "appIDs": [
+          "4MAZ6PN72R.com.xcaret.casadelaplaya"
+        ],
+        "components": [
+          {
+            "/": "/profile/*",
+            "comment": "Matches any URL beginning with /profile/ for CDLP"
+          },
+          {
+            "/": "/photos/*",
+            "comment": "Matches any URL beginning with /photos/ for CDLP"
+          }
+        ]
       }
     ]
   },
