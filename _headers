@@ -1,2 +1,7 @@
 /apple-app-site-association
   Content-Type: application/json
+ 
+ 
+/assetlinks.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
